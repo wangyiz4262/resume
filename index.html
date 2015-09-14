@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume of Yizhe Wang</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body ng-app="resumeApp">
+	<div class="container relativePosition" ng-controller="resumeCtrl">
+		<div class="top-right">
+			<label ng-repeat="lang in languages" ng-init="switchLanguage(selectedLang)">
+				<input type="radio" ng-model="$parent.selectedLang" ng-value="lang.abbr" ng-click="switchLanguage(lang.abbr)">
+				{{ lang.name }}
+			</label>
+		</div>
+		<p id="fullname" ng-bind="fullname"></p>
+		
+		<div id="contact">
+			<span ng-repeat="contact in contacts">
+				<span ng-bind="contact.name"></span>: <span ng-bind-html="toHtml(contact.value)"></span><span ng-if="!$last">&nbsp;&nbsp;&nbsp;&#903;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+		</div>
+
+		<section id="education" ng-switch on="selectedLang">
+			<label class="heading" ng-switch-when="en">EDUCATION</label>
+			<label class="heading" ng-switch-when="zh">教育背景</label>
+			<div class="one-entry" ng-repeat="ed in educations">
+				<span class="title" ng-bind="ed.degree"></span>
+				<span class="other-info" ng-bind-html="toHtml(ed.school)"></span>
+				<span class="period" ng-bind="ed.period"></span>
+				<div class="details" ng-bind="ed.course"></div>
+			</div>
+		</section>
+
+		<section id="skills" ng-switch on="selectedLang">
+			<label class="heading" ng-switch-when="en">SKILLS</label>
+			<label class="heading" ng-switch-when="zh">技术能力</label>
+			<div class="one-entry">
+				<ul class="details">
+					<li ng-repeat="skill in skills">
+						<span>{{ skill.type }}：</span>
+						<span>{{ skill.details }}</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="experience" ng-switch on="selectedLang">
+			<label class="heading" ng-switch-when="en">EXPERIENCE</label>
+			<label class="heading" ng-switch-when="zh">实习经历</label>
+			<div class="one-entry" ng-repeat="exp in experiences">
+				<span class="title" ng-bind="exp.jobTitle"></span>
+				<span class="other-info" ng-bind="exp.location"></span>
+				<span class="period" ng-bind="exp.period"></span>
+				<ul class="details">
+					<li ng-repeat="detail in exp.details" ng-bind-html="toHtml(detail)"></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="projects" ng-switch on="selectedLang">
+			<label class="heading" ng-switch-when="en">PROJECTS</label>
+			<label class="heading" ng-switch-when="zh">项目简介</label>
+			<div class="one-entry" ng-repeat="proj in projects">
+				<span class="title" ng-bind="proj.projectTitle"></span>
+				<span class="other-info" ng-bind="proj.location"></span>
+				<span class="period" ng-bind="proj.period"></span>
+				<ul class="details">
+					<li ng-repeat="detail in proj.details" ng-bind-html="toHtml(detail)"></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="/js/data.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>
