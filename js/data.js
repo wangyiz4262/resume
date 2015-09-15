@@ -136,7 +136,7 @@ var projects_multilingual = {
 				'Designed UI and functionality from scratch.',
 				'Implemented with AngularJS for instant content refreshing.',
 				'Familiar with AngularJS MVVM framework and two-way data binding.',
-				'Used Git for version control, project URL: <a href="https://wangyiz4262.github.io/leetcode/">https://wangyiz4262.github.io/leetcode/</a>'
+				'Used Git for version control, project URL: <a href="https://wangyiz4262.github.io/leetcode/" target="_blank">https://wangyiz4262.github.io/leetcode/</a>'
 			]
 		},
 		{
@@ -180,7 +180,7 @@ var projects_multilingual = {
 				'产品功能设计及 UI 设计',
 				'利用 AngularJS 实现即时内容更新',
 				'深入理解 AngularJS 的 MVVM 框架设计思想及数据双向绑定的实现',
-				'使用 Git 进行代码版本控制，项目URL：<a href="http://wangyiz4262.github.io">http://wangyiz4262.github.io/</a>'
+				'使用 Git 进行代码版本控制，项目URL：<a href="https://wangyiz4262.github.io/leetcode/" target="_blank">https://wangyiz4262.github.io/leetcode/</a>'
 			]
 		},
 		{
