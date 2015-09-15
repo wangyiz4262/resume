@@ -136,7 +136,7 @@ var projects_multilingual = {
 				'Designed UI and functionality from scratch.',
 				'Implemented with AngularJS for instant content refreshing.',
 				'Familiar with AngularJS MVVM framework and two-way data binding.',
-				'Used Git for version control, project URL: <a href="http://wangyiz4262.github.io">http://wangyiz4262.github.io/</a>'
+				'Used Git for version control, project URL: <a href="https://wangyiz4262.github.io/leetcode/">https://wangyiz4262.github.io/leetcode/</a>'
 			]
 		},
 		{
