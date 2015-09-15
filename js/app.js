@@ -15,9 +15,10 @@ resumeApp.controller('resumeCtrl', ['$scope', '$sce', function($scope, $sce) {
 	$scope.switchLanguage = function(lang) {
 		$scope.fullname = fullname_multilingual[lang];
 		$scope.contacts = [
-			{name: 'Email', value: '<a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>'},
-			{name: 'Phone', value: '+1 (857) 221-2798'},
-			{name: 'GitHub', value: '<a href="http://github.com/wangyiz4262" target="_blank">http://github.com/wangyiz4262</a>'}
+			'Email: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
+			'Phone: +1 (857) 221-2798',
+			'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
+			'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
 		];
 		$scope.educations = educations_multilingual[lang];
 		$scope.skills = skills_multilingual[lang];

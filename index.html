@@ -16,7 +16,7 @@
 		
 		<div id="contact">
 			<span ng-repeat="contact in contacts">
-				<span ng-bind="contact.name"></span>: <span ng-bind-html="toHtml(contact.value)"></span><span ng-if="!$last">&nbsp;&nbsp;&nbsp;&#903;&nbsp;&nbsp;&nbsp;</span>
+				<span ng-bind-html="toHtml(contact)"></span><span ng-if="!$last">&nbsp;&nbsp;&nbsp;&#903;&nbsp;&nbsp;&nbsp;</span>
 			</span>
 		</div>
 
