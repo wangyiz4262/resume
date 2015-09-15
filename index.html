@@ -38,7 +38,7 @@
 			<div class="one-entry">
 				<ul class="details">
 					<li ng-repeat="skill in skills">
-						<span>{{ skill.type }}：</span>
+						<span>{{ skill.type }}: </span>
 						<span>{{ skill.details }}</span>
 					</li>
 				</ul>
@@ -46,7 +46,7 @@
 		</section>
 
 		<section id="experience" ng-switch on="selectedLang">
-			<label class="heading" ng-switch-when="en">EXPERIENCE</label>
+			<label class="heading" ng-switch-when="en">EXPERIENCES</label>
 			<label class="heading" ng-switch-when="zh">实习经历</label>
 			<div class="one-entry" ng-repeat="exp in experiences">
 				<span class="title" ng-bind="exp.jobTitle"></span>
