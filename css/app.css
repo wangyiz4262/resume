@@ -16,6 +16,7 @@ section {
 	margin-top: 1em;
 }
 .heading {
+	font-family: cambria, SimSun, "宋体";
 	font-size: 1.3em;
 	font-weight: bold;
 }
@@ -32,32 +33,32 @@ section {
 }
 .title {
 	font-weight: bold;
-	font-family: cambria;
+	font-family: cambria, "Microsoft YaHei", "微软雅黑", STHeiti, "华文黑体";
 	text-align: left;
 	margin-left: 5px;
 }
 .other-info {
-	font-family: calibri;
+	font-family: calibri, "Microsoft YaHei", "微软雅黑", "STHeiti Light", "华文细黑";
 	text-align: left;
 	width: 35%;
 	position: absolute;
 	right: 17%;
 }
 .period {
-	font-family: calibri;
+	font-family: calibri, "Microsoft YaHei", "微软雅黑", "STHeiti Light", "华文细黑";
 	text-align: right;
 	width: 17%;
 	position: absolute;
 	right: 0;
 }
 .details {
-	font-family: calibri;
+	font-family: calibri, "Microsoft YaHei", "微软雅黑", "STHeiti Light", "华文细黑";
 	text-align: left;
 	margin: 0 0 0 5px;
 	padding: 0 0 0 15px;
 }
 body {
-	font-family: cambria, calibri, sans-serif;
+	font-family: cambria, calibri, "Microsoft YaHei", "微软雅黑", "STHeiti Light", "华文细黑", STHeiti, "华文黑体", SimSun, "宋体", sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	color: #333;
@@ -79,9 +80,9 @@ a:active {
 	color: #0B0080;
 }
 #fullname {
-	font-family: cambria, STXihei;
+	font-family: cambria, SimSun, "宋体", STXihei, "华文黑体";
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
 	margin: 0;
 }

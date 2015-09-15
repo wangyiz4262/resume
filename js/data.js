@@ -1,6 +1,6 @@
 var fullname_multilingual = {
 	en: 'Yizhe Wang',
-	zh: '王艺哲'
+	zh: '王 艺 哲'
 };
 
 var educations_multilingual = {
