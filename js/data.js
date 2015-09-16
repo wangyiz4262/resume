@@ -141,7 +141,7 @@ var projects_multilingual = {
 		},
 		{
 			projectTitle: 'A Raspberry Pi based temperature - tuminosity sensing device',
-			location: 'Villanova University, Philadelphia, PA',
+			location: '',
 			period: 'April. 2015',
 			details: [
 				'Built up an IoT device with Raspberry Pi, temperature sensor and luminosity sensor.',
