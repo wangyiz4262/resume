@@ -140,6 +140,17 @@ var projects_multilingual = {
 			]
 		},
 		{
+			projectTitle: 'A Raspberry Pi based temperature - tuminosity sensing device',
+			location: 'Villanova University, Philadelphia, PA',
+			period: 'April. 2015',
+			details: [
+				'Built up an IoT device with Raspberry Pi, temperature sensor and luminosity sensor.',
+				'Presented the relationship between temperature and luminosity with a RESTful service created by Django framework.',
+				'Understood the idea of MTV framework by Django, and get my Python skill honed.',
+				'Used Git for version control, project URL：<a href="https://github.com/wangyiz4262/iotproject/">https://github.com/wangyiz4262/iotproject/</a>.'
+			]
+		},
+		{
 			projectTitle: 'Full-stack web development',
 			location: 'AmeriHealth Administrators, Philadelphia, PA',
 			period: 'Aug. 2014 - Sept. 2014',
@@ -181,6 +192,17 @@ var projects_multilingual = {
 				'利用 AngularJS 实现即时内容更新',
 				'深入理解 AngularJS 的 MVVM 框架设计思想及数据双向绑定的实现',
 				'使用 Git 进行代码版本控制，项目URL：<a href="https://wangyiz4262.github.io/leetcode/" target="_blank">https://wangyiz4262.github.io/leetcode/</a>'
+			]
+		},
+		{
+			projectTitle: '基于树莓派的光强-温度感应器',
+			location: '',
+			period: '2015年4月',
+			details: [
+				'利用树莓派和光强、温度感应器组装起一个物联网设备，用来感应温度与日光强度变化间的关系',
+				'使用 Django 框架搭建一个 RESTful 服务用来展示实验结果',
+				'理解 Django 的 MTV 框架设计思想，并训练 Python 编程能力',
+				'使用 Git 进行代码版本控制，项目URL：<a href="https://github.com/wangyiz4262/iotproject">https://github.com/wangyiz4262/iotproject</a>'
 			]
 		},
 		{
