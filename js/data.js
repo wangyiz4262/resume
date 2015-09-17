@@ -140,14 +140,14 @@ var projects_multilingual = {
 			]
 		},
 		{
-			projectTitle: 'A Raspberry Pi based temperature - tuminosity sensing device',
+			projectTitle: 'A Raspberry Pi based temperature - luminosity sensing device',
 			location: '',
 			period: 'April. 2015',
 			details: [
 				'Built up an IoT device with Raspberry Pi, temperature sensor and luminosity sensor.',
 				'Presented the relationship between temperature and luminosity with a RESTful service created by Django framework.',
 				'Understood the idea of MTV framework by Django, and get my Python skill honed.',
-				'Used Git for version control, project URL：<a href="https://github.com/wangyiz4262/iotproject/">https://github.com/wangyiz4262/iotproject/</a>.'
+				'Used Git for version control, project URL: <a href="https://github.com/wangyiz4262/iotproject/">https://github.com/wangyiz4262/iotproject/</a>.'
 			]
 		},
 		{
