@@ -29,7 +29,7 @@ var educations_multilingual = {
 			degree: '计算机科学 硕士',
 			school: '<a href="http://csc.villanova.edu" target="_blank">Villanova University</a>, 费城, 美国',
 			period: '2013年9月 - 至今',
-			course: '相关课程：物理网、数据库基础、数据结构与算法、操作系统、编程语言'
+			course: '相关课程：物联网、数据库基础、数据结构与算法、操作系统、编程语言'
 		},
 		{
 			degree: '工程项目管理 硕士',
