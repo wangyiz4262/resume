@@ -8,19 +8,19 @@ var educations_multilingual = {
 		{
 			degree: 'M.S. in Computer Science',
 			school: '<a href="http://csc.villanova.edu" target="_blank">Villanova University</a>, Philadelphia, U.S.A',
-			period: 'May. 2016',
+			period: 'Sept. 2013 - Now',
 			course: 'Coursework: Internet of Things, Database System, Algorithms, Operating Systems, Programming Languages'
 		},
 		{
 			degree: 'M.S. in Construction Management',
 			school: '<a href="http://www.civ.neu.edu" target="_blank">Northeastern University</a>, Boston, U.S.A',
-			period: 'May. 2011',
+			period: 'Sept. 2009 - May. 2011',
 			course: 'Coursework: Probability and Statistics, Engineering Project Management'
 		},
 		{
 			degree: 'B.S. in Hydraulic Engineering',
 			school: '<a href="http://www.hydr.tsinghua.edu.cn" target="_blank">Tsinghua University</a>, Beijing, China',
-			period: 'July. 2009',
+			period: 'Sept. 2005 - July. 2009',
 			course: 'Coursework: Computer Networks, Programming in C++'
 		}
 	],
@@ -28,19 +28,19 @@ var educations_multilingual = {
 		{
 			degree: '计算机科学 硕士',
 			school: '<a href="http://csc.villanova.edu" target="_blank">Villanova University</a>, 费城, 美国',
-			period: '2016年5月',
+			period: '2013年9月 - 至今',
 			course: '相关课程：物理网、数据库基础、数据结构与算法、操作系统、编程语言'
 		},
 		{
 			degree: '工程项目管理 硕士',
 			school: '<a href="http://www.civ.neu.edu" target="_blank">Northeastern University</a>, 波士顿, 美国',
-			period: '2011年5月',
+			period: '2009年9月 - 2011年5月',
 			course: '相关课程：概率论与数理统计、工程项目管理'
 		},
 		{
 			degree: '水利水电工程 学士',
 			school: '<a href="http://www.hydr.tsinghua.edu.cn" target="_blank">清华大学</a>, 北京, 中国',
-			period: '2009年7月',
+			period: '2005年9月 - 2009年7月',
 			course: '相关课程：计算机网络、程序设计基础'
 		}
 	]
@@ -80,7 +80,7 @@ var skills_multilingual = {
 var experiences_multilingual = {
 	en: [
 		{
-			jobTitle: 'Intern Software Developer',
+			jobTitle: 'Intern Product Engineer',
 			location: 'FIS, Philadelphia, PA',
 			period: 'June. 2015 - July. 2015',
 			details: [
@@ -103,7 +103,7 @@ var experiences_multilingual = {
 	],
 	zh: [
 		{
-			jobTitle: '软件工程师实习',
+			jobTitle: '产品工程师实习',
 			location: 'FIS, 费城',
 			period: '2015年6月 - 2015年7月',
 			details: [
@@ -147,7 +147,7 @@ var projects_multilingual = {
 				'Built up an IoT device with Raspberry Pi, temperature sensor and luminosity sensor.',
 				'Presented the relationship between temperature and luminosity with a RESTful service created by Django framework.',
 				'Understood the idea of MTV framework by Django, and get my Python skill honed.',
-				'Used Git for version control, project URL: <a href="https://github.com/wangyiz4262/iotproject/">https://github.com/wangyiz4262/iotproject/</a>.'
+				'Used Git for version control, project URL: <a href="https://github.com/wangyiz4262/iotproject/" target="_blank">https://github.com/wangyiz4262/iotproject/</a>.'
 			]
 		},
 		{
@@ -196,13 +196,13 @@ var projects_multilingual = {
 		},
 		{
 			projectTitle: '基于树莓派的光强-温度感应器',
-			location: '',
+			location: 'Villanova University, 费城',
 			period: '2015年4月',
 			details: [
 				'利用树莓派和光强、温度感应器组装起一个物联网设备，用来感应温度与日光强度变化间的关系',
 				'使用 Django 框架搭建一个 RESTful 服务用来展示实验结果',
 				'理解 Django 的 MTV 框架设计思想，并训练 Python 编程能力',
-				'使用 Git 进行代码版本控制，项目URL：<a href="https://github.com/wangyiz4262/iotproject">https://github.com/wangyiz4262/iotproject</a>'
+				'使用 Git 进行代码版本控制，项目URL：<a href="https://github.com/wangyiz4262/iotproject" target="_blank">https://github.com/wangyiz4262/iotproject</a>'
 			]
 		},
 		{
