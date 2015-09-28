@@ -16,7 +16,7 @@ resumeApp.controller('resumeCtrl', ['$scope', '$sce', function($scope, $sce) {
 		$scope.fullname = fullname_multilingual[lang];
 		$scope.contacts = [
 			'Email: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
-			'Phone: +1 (857) 221-2798',
+			'<a href="http://wangyizhe.net" target="_blank">Personal Blog</a>',
 			'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
 			'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
 		];
