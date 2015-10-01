@@ -3,6 +3,21 @@ var fullname_multilingual = {
 	zh: '王 艺 哲'
 };
 
+var contacts_multilingual = {
+	en: [
+		'Email: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
+		'<a href="http://blog.wangyizhe.net" target="_blank">Personal Blog</a>',
+		'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
+		'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
+	],
+	zh: [
+		'电子邮件: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
+		'<a href="http://blog.wangyizhe.net" target="_blank">个人博客</a>',
+		'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
+		'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
+	]
+};
+
 var educations_multilingual = {
 	en: [
 		{
@@ -136,7 +151,7 @@ var projects_multilingual = {
 				'Designed UI and functionality from scratch.',
 				'Implemented with AngularJS for instant content refreshing.',
 				'Familiar with AngularJS MVVM framework and two-way data binding.',
-				'Used Git for version control, project URL: <a href="https://wangyiz4262.github.io/leetcode/" target="_blank">https://wangyiz4262.github.io/leetcode/</a>'
+				'Used Git for version control, project URL: <a href="http://wangyizhe.net/leetcode/" target="_blank">http://wangyizhe.net/leetcode/</a>'
 			]
 		},
 		{
@@ -191,7 +206,7 @@ var projects_multilingual = {
 				'产品功能设计及 UI 设计',
 				'利用 AngularJS 实现即时内容更新',
 				'深入理解 AngularJS 的 MVVM 框架设计思想及数据双向绑定的实现',
-				'使用 Git 进行代码版本控制，项目URL：<a href="https://wangyiz4262.github.io/leetcode/" target="_blank">https://wangyiz4262.github.io/leetcode/</a>'
+				'使用 Git 进行代码版本控制，项目URL：<a href="http://wangyizhe.net/leetcode/" target="_blank">http://wangyizhe.net/leetcode/</a>'
 			]
 		},
 		{
