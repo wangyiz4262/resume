@@ -5,14 +5,14 @@ var fullname_multilingual = {
 
 var contacts_multilingual = {
 	en: [
-		'Email: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
-		'<a href="http://blog.wangyizhe.net" target="_blank">Personal Blog</a>',
+		'Email: <a href="mailto:career@mail.wangyizhe.net">career@mail.wangyizhe.net</a>',
+		'Blog: <a href="http://blog.wangyizhe.net" target="_blank">http://blog.wangyizhe.net</a>',
 		'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
 		'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
 	],
 	zh: [
-		'电子邮件: <a href="mailto:wangyiz4262@hotmail.com">wangyiz4262@hotmail.com</a>',
-		'<a href="http://blog.wangyizhe.net" target="_blank">个人博客</a>',
+		'电子邮件：<a href="mailto:career@mail.wangyizhe.net">career@mail.wangyizhe.net</a>',
+		'个人博客：<a href="http://blog.wangyizhe.net" target="_blank">http://blog.wangyizhe.net</a>',
 		'<a href="http://github.com/wangyiz4262" target="_blank">GitHub</a>',
 		'<a href="https://www.linkedin.com/in/wangyizhe" target="_blank">LinkedIn</a>'
 	]
