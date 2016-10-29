@@ -10,7 +10,7 @@ resumeApp.controller('resumeCtrl', ['$scope', '$sce', function($scope, $sce) {
 		{ name: 'English', abbr: 'en' },
 		{ name: '中文', abbr: 'zh' }
 	];
-	$scope.selectedLang = 'zh';
+	$scope.selectedLang = 'en';
 
 	$scope.switchLanguage = function(lang) {
 		$scope.fullname = fullname_multilingual[lang];

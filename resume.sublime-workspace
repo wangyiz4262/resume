@@ -9,7 +9,7 @@
 			],
 			[
 				"li",
-				"link	Tag"
+				"link\tTag"
 			],
 			[
 				"your",
@@ -25,11 +25,11 @@
 			],
 			[
 				"try",
-				"try	Try/Except"
+				"try\tTry/Except"
 			],
 			[
 				"def",
-				"defs	Method"
+				"defs\tMethod"
 			],
 			[
 				"Th",
@@ -45,7 +45,7 @@
 			],
 			[
 				"for",
-				"for	for (…) {…} (Improved Native For-Loop)"
+				"for\tfor (…) {…} (Improved Native For-Loop)"
 			],
 			[
 				"left",
@@ -65,11 +65,11 @@
 			],
 			[
 				"tb",
-				"tb	toBe"
+				"tb\ttoBe"
 			],
 			[
 				"tbn",
-				"tbn	toBeNull"
+				"tbn\ttoBeNull"
 			],
 			[
 				"ar",
@@ -161,11 +161,11 @@
 			],
 			[
 				"b",
-				"blockquote	Tag"
+				"blockquote\tTag"
 			],
 			[
 				"st",
-				"strong	Tag"
+				"strong\tTag"
 			],
 			[
 				"margin",
@@ -197,7 +197,7 @@
 			],
 			[
 				"$SC",
-				"$scope	AngularJS"
+				"$scope\tAngularJS"
 			],
 			[
 				"l",
@@ -205,19 +205,19 @@
 			],
 			[
 				"$rout",
-				"$routeParams	AngularJS"
+				"$routeParams\tAngularJS"
 			],
 			[
 				"$rou",
-				"$routeParams	AngularJS(DI)"
+				"$routeParams\tAngularJS(DI)"
 			],
 			[
 				"th",
-				"th	Tag"
+				"th\tTag"
 			],
 			[
 				"$sc",
-				"$scope	AngularJS"
+				"$scope\tAngularJS"
 			],
 			[
 				"pr",
@@ -225,15 +225,15 @@
 			],
 			[
 				"t",
-				"tbody	Tag"
+				"tbody\tTag"
 			],
 			[
 				"ng-v",
-				"ng-view	AngularJS"
+				"ng-view\tAngularJS"
 			],
 			[
 				"ng",
-				"ng-app	AngularJS"
+				"ng-app\tAngularJS"
 			],
 			[
 				"le",
@@ -241,11 +241,11 @@
 			],
 			[
 				"con",
-				"controller	AngularJS"
+				"controller\tAngularJS"
 			],
 			[
 				"$R",
-				"$routeProvider	AngularJS"
+				"$routeProvider\tAngularJS"
 			],
 			[
 				"a",
@@ -257,23 +257,23 @@
 			],
 			[
 				"sr",
-				"script	Tag"
+				"script\tTag"
 			],
 			[
 				"op",
-				"option	Tag"
+				"option\tTag"
 			],
 			[
 				"ng-op",
-				"ng-options	AngularJS"
+				"ng-options\tAngularJS"
 			],
 			[
 				"ng-re",
-				"ng-repeat	AngularJS"
+				"ng-repeat\tAngularJS"
 			],
 			[
 				"ngre",
-				"ng-repeat	AngularJS"
+				"ng-repeat\tAngularJS"
 			]
 		]
 	},
@@ -369,10 +369,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Yizhe/Documents/Git/Resume"
+		"/Users/Yizhe/Documents/Git/resume",
+		"/Users/Yizhe/Documents/Git/resume/node_modules/angular"
 	],
 	"file_history":
 	[
+		"/Users/Yizhe/Documents/Git/resume/js/data.js",
+		"/Users/Yizhe/Documents/Git/resume/js/app.js",
 		"/D/Yizhe/Documents/Git/Resume/js/data.js",
 		"/D/Yizhe/Documents/Git/Resume/js/app.js",
 		"/D/Yizhe/Documents/Git/blog/source/_posts/2015/09/Build-personal-blog-with-Hexo-Part-2.md",
@@ -498,9 +501,7 @@
 		"/Users/yizhewang/Sites/payment/js/modules/welcome/controllers.js",
 		"/Users/yizhewang/Sites/payment/index.html",
 		"/Users/yizhewang/Sites/payment_terminal/.gitignore",
-		"/Users/yizhewang/Sites/payment_terminal/apps/setup/js/controllers.js",
-		"/Users/yizhewang/Sites/payment_terminal/views/index.html",
-		"/Users/yizhewang/Sites/payment_terminal/js/controllers/index.js"
+		"/Users/yizhewang/Sites/payment_terminal/apps/setup/js/controllers.js"
 	],
 	"find":
 	{

@@ -24,7 +24,7 @@ var educations_multilingual = {
 			degree: 'M.S. in Computer Science',
 			school: '<a href="http://csc.villanova.edu" target="_blank">Villanova University</a>, Philadelphia, U.S.A',
 			period: 'Sept. 2013 - Now',
-			course: 'Coursework: Internet of Things, Database System, Algorithms, Operating Systems, Programming Languages'
+			course: 'Coursework: Internet of Things, Database System, Algorithms, Programming Languages'
 		},
 		{
 			degree: 'M.S. in Construction Management',
@@ -44,7 +44,7 @@ var educations_multilingual = {
 			degree: '计算机科学 硕士',
 			school: '<a href="http://csc.villanova.edu" target="_blank">Villanova University</a>, 费城, 美国',
 			period: '2013年9月 - 至今',
-			course: '相关课程：物联网、数据库基础、数据结构与算法、操作系统、编程语言'
+			course: '相关课程：物联网、数据库基础、数据结构与算法、编程语言'
 		},
 		{
 			degree: '工程项目管理 硕士',
@@ -65,12 +65,12 @@ var skills_multilingual = {
 	en: [
 		{
 			type: 'Languages',
-			details: 'Java, JavaScript, Python, PL/SQL'
+			details: 'JavaScript, Java, PL/SQL'
 		},
-		{
-			type: 'Framework',
-			details: 'AngularJS, ASP.NET MVC'
-		},
+		// {
+		// 	type: 'Framework',
+		// 	details: 'AngularJS, ASP.NET MVC'
+		// },
 		{
 			type: 'Development Approach',
 			details: 'Git, Agile with Scrum, Test-Driven-Development'
@@ -79,12 +79,12 @@ var skills_multilingual = {
 	zh: [
 		{
 			type: '开发语言',
-			details: 'Java, JavaScript, Python, PL/SQL'
+			details: 'JavaScript, Java, PL/SQL'
 		},
-		{
-			type: '开发框架',
-			details: 'AngularJS, ASP.NET MVC'
-		},
+		// {
+		// 	type: '开发框架',
+		// 	details: 'AngularJS, ASP.NET MVC'
+		// },
 		{
 			type: '开发模式',
 			details: 'Git, Scrum 敏捷开发, 测试驱动开发'
@@ -95,12 +95,21 @@ var skills_multilingual = {
 var experiences_multilingual = {
 	en: [
 		{
+			jobTitle: 'Intern Front-end Developer',
+			location: 'Yizhen Arts Inc., Beijing, China',
+			period: 'June. 2016 - July. 2016',
+			details: [
+				'Used jQuery for DOM manipulaSon and drew shapes with pure CSS.',
+				'Created jQuery plugin for paging.'
+			]
+		},
+		{
 			jobTitle: 'Intern Product Engineer',
 			location: 'FIS, Philadelphia, PA',
 			period: 'June. 2015 - July. 2015',
 			details: [
 				'Extensive research on technical feasibility of a new product in plan.',
-				'Chose Raspberry Pi as the basis of the product and procured necessary parts',
+				'Chose Raspberry Pi as the basis of the product and procured necessary parts.',
 				'Built up a sample product with hardware parts.',
 				'Full documentation of progress and and collaboration with the team.'
 			]
@@ -117,6 +126,15 @@ var experiences_multilingual = {
 		}
 	],
 	zh: [
+		{
+			jobTitle: '前端工程师实习',
+			location: '艺真国际文华投资有限公司, 北京',
+			period: '2016年6月 - 2016年7月',
+			details: [
+				'熟练使用jQuery控制DOM元素，并使用纯CSS进行绘图以减少响应时间.',
+				'开发基于jQuery的翻页插件.'
+			]
+		},
 		{
 			jobTitle: '产品工程师实习',
 			location: 'FIS, 费城',
@@ -145,7 +163,7 @@ var projects_multilingual = {
 	en: [
 		{
 			projectTitle: 'Front-end development with AngularJS',
-			location: '',
+			location: 'Beijing, China',
 			period: 'Aug. 2015',
 			details: [
 				'Designed UI and functionality from scratch.',
@@ -180,27 +198,18 @@ var projects_multilingual = {
 			location: 'AmeriHealth Administrators, Philadelphia, PA',
 			period: 'June. 2014 - July. 2014',
 			details: [
+				'Applied rules of Scrum for development of the system.',
 				'Created Visual Studio solutions automatically instead of manual operation.',
 				'Saved 90% of effort for developers when creating Visual Studio solutions.',
 				'Followed Test-Driven-Development approach (TDD) as writing unit test before implementing every function.',
 				'Documented necessary instructions for user manual.'
-			]
-		},
-		{
-			projectTitle: 'Writing huge XML files with low memory cost',
-			location: 'AmeriHealth Administrators, Philadelphia, PA',
-			period: 'May. 2014',
-			details: [
-				'Applied rules of Scrum for development of the system.',
-				'Generated huge XML files with content of different level of randomness.',
-				'Accelerated testing progress by customizing the size of loaded XML file.'
 			]
 		}
 	],
 	zh: [
 		{
 			projectTitle: 'AngularJS 前端开发',
-			location: '',
+			location: '北京',
 			period: '2015年8月',
 			details: [
 				'产品功能设计及 UI 设计',
@@ -235,20 +244,11 @@ var projects_multilingual = {
 			location: 'AmeriHealth Administrators, 费城',
 			period: '2014年6月 - 2014年7月',
 			details: [
+				'遵循 Scrum 敏捷开发理念',
 				'自动生成具有自定义结构的 Visual Studio 项目',
 				'因减少手工操作从而节约 90% 用于创建新项目的时间',
 				'为每一个新建函数进行单元测试，遵循测试驱动开发的开发流程',
 				'及时书写技术文档和用户使用手册'
-			]
-		},
-		{
-			projectTitle: '低内存占用生成大体积 XML',
-			location: 'AmeriHealth Administrators, 费城',
-			period: '2014年5月',
-			details: [
-				'遵循 Scrum 敏捷开发理念',
-				'使用.NET 框架中 Stream IO 方式读取 XML 样本文件，并同步生成内容随机的 XML 文件',
-				'生成的 XML 文件大小可根据需要自定义'
 			]
 		}
 	]
