@@ -3,7 +3,12 @@ const webpack = require('webpack')
 
 module.exports = {
     context: path.resolve(__dirname),
-    entry: ['./node_modules/bootstrap/less/bootstrap.less', './index.js'],
+    entry: [
+        'bootstrap/less/bootstrap.less', 
+        './assets/style.less', 
+        './assets/favicon.ico',
+        './index.js'
+    ],
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
@@ -26,11 +31,18 @@ module.exports = {
             test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
             loader: 'url-loader?limit=10000&mimetype=application/font-woff'
         },{
-            test: /\.(eot|ttf)(\?v=\d+\.\d+\.\d+)?$/,
+            test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+            loader: 'url-loader?limit=10000&mimetype=application/octet-stream'
+        },{
+            test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
             loader: 'file-loader'
         },{
             test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-            loader: 'babel-loader!svg-react-loader'
+            loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
+        },{
+            test: /\.(jpg|jpeg|gif|png|ico)$/,
+            loader:'file-loader?name=[name].[ext]',
+            exclude: /node_modules/
         }]
     },
     target: 'web',

@@ -1,32 +1,30 @@
 import React from 'react';
-import {languageStore} from '../scripts/store.js';
-import {LanguageRadio, Contact, Education, Skills
-    , Experiences, Projects} from './section.js';
-import {Grid} from 'react-bootstrap';
+import {data} from '../assets/data.js';
+import {Contact, Skills, Frame} from './section.js';
+import {FormGroup, Radio} from 'react-bootstrap';
 
 class App extends React.PureComponent {
     constructor() {
         super();
         this.state = { lang: 'en' };
+        this.clickHander = this.clickHander.bind(this);
     }
-    componentDidMount() {
-        this.unsubscribe = languageStore.subscribe(() => {
-            this.setState({ lang: languageStore.getState() });
-        });
-    }
-    componentWillUnmount() {
-        this.unsubscribe();
+    clickHander(e) {
+        this.setState({ lang: e.target.getAttribute('lang') });
     }
     render() {
         return (
-            <Grid>
-                <LanguageRadio />
-                <Contact lang={this.state.lang} />
-                {/*<Education lang={this.state.lang} />
-                <Skills lang={this.state.lang} />
-                <Experiences lang={this.state.lang} />
-                <Projects lang={this.state.lang} />*/}
-            </Grid>
+            <div>
+                <form id='languageSelector'><FormGroup>
+                    <Radio inline name='language' lang='en' onChange={this.clickHander} checked={this.state.lang === 'en'}>English</Radio>
+                    <Radio inline name='language' lang='zh' onChange={this.clickHander} checked={this.state.lang === 'zh'}>中文</Radio>
+                </FormGroup></form>
+                <Contact lang={this.state.lang} fullname={data.fullname} contact={data.contact} />
+                <Frame lang={this.state.lang} data={data.education} />
+                <Skills lang={this.state.lang} data={data.skills} />
+                <Frame lang={this.state.lang} data={data.experiences} />
+                <Frame lang={this.state.lang} data={data.projects} />
+            </div>
         );
     }
 }
