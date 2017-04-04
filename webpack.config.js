@@ -8,6 +8,7 @@ module.exports = {
         './assets/docs/favicon.ico',
         './assets/docs/robots.txt',
         './assets/docs/CNAME',
+        './assets/docs/.gitignore',
         'bootstrap/less/bootstrap.less', 
         './assets/style.less',
         './index.js'
@@ -51,7 +52,7 @@ module.exports = {
             loader:'file-loader?name=[name].[ext]',
             exclude: /node_modules/
         },{
-            test: /CNAME$/,
+            test: /CNAME|\.gitignore$/,
             loader:'file-loader?name=[name]',
             exclude: /node_modules/
         }]
