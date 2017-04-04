@@ -10,7 +10,7 @@ module.exports = {
         './index.js'
     ],
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'docs'),
         filename: 'bundle.js'
     },
     module: {
@@ -48,7 +48,7 @@ module.exports = {
     target: 'web',
     devtool: 'eval-source-map',
     devServer: {
-        contentBase: path.join(__dirname, 'build'),
+        contentBase: path.join(__dirname, 'docs'),
         historyApiFallback: true
     }
 };
