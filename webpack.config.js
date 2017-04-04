@@ -3,10 +3,13 @@ const webpack = require('webpack')
 
 module.exports = {
     context: path.resolve(__dirname),
-    entry: [
+    entry: [ 
+        './index.html',
+        './assets/docs/favicon.ico',
+        './assets/docs/robots.txt',
+        './assets/docs/CNAME',
         'bootstrap/less/bootstrap.less', 
-        './assets/style.less', 
-        './assets/favicon.ico',
+        './assets/style.less',
         './index.js'
     ],
     output: {
@@ -42,6 +45,14 @@ module.exports = {
         },{
             test: /\.(jpg|jpeg|gif|png|ico)$/,
             loader:'file-loader?name=[name].[ext]',
+            exclude: /node_modules/
+        },{
+            test: /(robots\.txt|index\.html)$/,
+            loader:'file-loader?name=[name].[ext]',
+            exclude: /node_modules/
+        },{
+            test: /CNAME$/,
+            loader:'file-loader?name=[name]',
             exclude: /node_modules/
         }]
     },
